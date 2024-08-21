@@ -1,0 +1,14 @@
+{
+    "name": "NPS Gauge Visualization",
+    "description": "A custom NPS gauge visualization.",
+    "data": {
+      "path": "https://yourusername.github.io/nps-gauge/script.js"
+    },
+    "style": {
+      "path": "https://yourusername.github.io/nps-gauge/style.css"
+    },
+    "html": {
+      "path": "https://yourusername.github.io/nps-gauge/index.html"
+    }
+  }
+  
