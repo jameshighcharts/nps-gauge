@@ -1,0 +1,120 @@
+/* Full-page container to center the content */
+.page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+  }
+  
+  /* Container for the NPS gauge */
+  .nps-gauge {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    position: relative;
+  }
+  
+  /* The gradient bar */
+  .nps-bar {
+    position: relative;
+    height: 40px;
+    border-radius: 20px;
+    background: linear-gradient(to right, #e74c3c, #f39c12, #f1c40f, #1abc9c, #2ecc71);
+    margin-bottom: 50px; /* Add space for labels underneath */
+  }
+  
+  /* The NPS score indicator */
+  .nps-score {
+    position: absolute;
+    top: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: #444; /* Solid color */
+    border-radius: 10px;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    transform: translate(-50%, -50%);
+  }
+  
+  /* Line for Benchmark passing through the gauge */
+  .benchmark-line {
+    position: absolute;
+    width: 2px;
+    background-color: #444;
+    top: -30px; /* Start slightly above the top of the gauge */
+    bottom: -30px; /* Extend slightly below the bottom of the gauge */
+    transform: translateX(-50%);
+  }
+  
+  /* Benchmark NPS score above the line */
+  .benchmark-score {
+    position: absolute;
+    top: 90px; /* Position above the bar */
+    font-size: 20px;
+    font-weight: bold;
+    color: #444;
+    transform: translate(-50%, 0%);
+  }
+  
+  /* Benchmark text below the line */
+  .benchmark-label {
+    position: absolute;
+    bottom: -49px; /* Position directly below the line */
+    font-size: 14px;
+    font-weight: bold;
+    color: #444;
+    transform: translate(-50%, 0%);
+  }
+  
+  /* Line from Highcharts upwards */
+  .score-line {
+    position: absolute;
+    width: 2px;
+    background-color: #444; /* Same color as the boxes */
+    top: -60px; /* Start slightly above the top of the box */
+    bottom: 100%; /* Extend up to the middle of the NPS score box */
+    transform: translateX(-50%);
+  }
+  
+  /* Highcharts text directly above the line */
+  .logo {
+    position: absolute;
+    top: -75px; /* Position above the bar */
+    font-size: 14px;
+    font-weight: bold;
+    color: #444;
+    transform: translate(-50%, 0%);
+  }
+  
+  /* Labels under the gauge */
+  .nps-labels {
+    position: absolute;
+    width: 100%;
+    top: 100%; /* Positioned directly under the bar */
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-40px); /* Ensure they are aligned directly under the gauge */
+  }
+  
+  .nps-label-left {
+    left: 0;
+  }
+  
+  .nps-label-center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%); /* Centered under the bar */
+  }
+  
+  .nps-label-right {
+    right: 0;
+  }
+  

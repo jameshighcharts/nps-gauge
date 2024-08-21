@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NPS Gauge</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page-container">
+        <div class="nps-gauge">
+          <div class="nps-bar">
+            <div id="nps-score" class="nps-score">50</div> <!-- NPS Score -->
+            <div id="benchmark" class="benchmark-score">20</div> <!-- Benchmark Score -->
+            <div id="benchmark-label" class="benchmark-label">Benchmark</div> <!-- Benchmark Label -->
+            <div id="logo" class="logo">Highcharts</div> <!-- Highcharts Label -->
+            <div id="benchmark-line" class="benchmark-line"></div> <!-- Line for Benchmark -->
+            <div id="score-line" class="score-line"></div> <!-- Line for Highcharts -->
+          </div>
+          <div class="nps-labels">
+            <span class="nps-label-left">-100</span>
+            <span class="nps-label-center">0</span>
+            <span class="nps-label-right">100</span>
+          </div>
+        </div>
+      </div>
+      
+    <script src="dynamic.js"></script>
+</body>
+</html>
