@@ -2,12 +2,12 @@
   "name": "NPS Gauge Visualization",
   "description": "A custom NPS gauge visualization.",
   "data": {
-    "path": "**https://github.com/Mictronics/GaugeMeter/blob/master/readme.md**"  // Replace with actual hosted URL
+    "path": "**https://jameshighcharts.github.io/nps-gauge/dynamic.js**"  // Replace with actual hosted URL
   },
   "style": {
-    "path": "**https://gist.github.com/sathomas/a8f1cc13c8b4fcb63c6f**"  // Replace with actual hosted URL
+    "path": "https://jameshighcharts.github.io/nps-gauge/style.css"  // Replace with actual hosted URL
   },
   "html": {
-    "path": "**https://github.com/getgauge/html-report**"  // Replace with actual hosted URL
+    "path": "https://jameshighcharts.github.io/nps-gauge/index.html"  // Replace with actual hosted URL
   }
 }
