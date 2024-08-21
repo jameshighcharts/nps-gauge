@@ -2,7 +2,7 @@
     "name": "NPS Gauge Visualization",
     "description": "A custom NPS gauge visualization.",
     "data": {
-      "path": "https://jameshighcharts.github.io/nps-gauge/script.js"
+      "path": "https://jameshighcharts.github.io/nps-gauge/dynamic.js"
     },
     "style": {
       "path": "https://jameshighcharts.github.io/nps-gauge/style.css"
